@@ -4,7 +4,7 @@ PORT=
 HOST=
 USERNAME=
 
-STD=/etc/apache2/conf.d/userdata/stf/2_4/${USERNAME}/${HOST}
+STD=/etc/apache2/conf.d/userdata/std/2_4/${USERNAME}/${HOST}
 SSL=/etc/apache2/conf.d/userdata/ssl/2_4/${USERNAME}/${HOST}
 
 mkdir -p $STD
